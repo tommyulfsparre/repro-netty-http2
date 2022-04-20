@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package grpc.example;
+
+option java_package = "com.grpc.example";
+option java_multiple_files = true;
+option java_outer_classname = "ExampleProto";
+
+
+message PingRequest {}
+
+message PingResponse {}
+
+service PingExample {
+  rpc Ping(PingRequest) returns (PingResponse) {}
+}

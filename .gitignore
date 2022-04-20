@@ -1,0 +1,8 @@
+target/
+## IntelliJ
+.idea
+.editorconfig
+*.iml
+
+## Temp
+dependency-reduced-pom.xml
